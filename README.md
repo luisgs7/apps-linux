@@ -35,7 +35,7 @@
 * 34 - scrcpy (snap install scrcpy)
 
 ## Caso seja uma distribuição baseada no Ubuntu
-* 34 - synaptic
+* 35 - synaptic
 
 ## Tema
 
