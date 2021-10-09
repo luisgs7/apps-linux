@@ -32,6 +32,7 @@
 * 31 - Terminal zsh, fish
 * 32 - vivaldi browser
 * 33 - PDF Mix Tool (Loja do gnome)
+* 34 - scrcpy (snap install scrcpy)
 
 ## Caso seja uma distribuição baseada no Ubuntu
 * 34 - synaptic
