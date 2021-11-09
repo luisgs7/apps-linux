@@ -29,7 +29,7 @@
 * 28 - python3.9 (poetry, "alias python=python3.9")
 * 29 - anaconda navigator 
 * 30 - golang
-* 31 - Terminal zsh, fish
+* 31 - Terminal zsh, fish (https://starship.rs/)
 * 32 - vivaldi browser
 * 33 - PDF Mix Tool (Loja do gnome)
 * 34 - scrcpy (snap install scrcpy)
