@@ -16,7 +16,7 @@
 * 15 – intellij
 * 16 – pgadmin
 * 17 - pycharm
-* 18 – docker
+* 18 – docker (sudo usermod -a -G docker luis -- cat /etc/group) 
 * 19 - docker compose instalar
 * 20 - spotify
 * 21 - vlc
