@@ -37,6 +37,9 @@
 ## Caso seja uma distribuição baseada no Ubuntu
 * 35 - synaptic
 
+## Softwares para desenvolvimento
+* dbeaver
+
 ## Tema
 
 * aplicativos - Flat remix gtk blue dark solid
