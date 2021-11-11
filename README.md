@@ -26,7 +26,7 @@
 * 25 - kdenlive
 * 26 - Firefox (flatpack)
 * 27 - gimp
-* 28 - python3.9 (poetry, "alias python=python3.9")
+* 28 - poetry ("alias python=python3.9")
 * 29 - anaconda navigator 
 * 30 - golang
 * 31 - Terminal zsh, fish (https://starship.rs/)
