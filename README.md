@@ -24,19 +24,20 @@
 * 18 - Terminal zsh, fish (https://starship.rs/)
 * 19 – virtualbox
 * 20 - mysql Workbench
+* 21 - brave browser 
 
 ## Flatpack e loja de aplicativos 
-* 21 – insomnia rest
-* 22 - spotify
-* 23 - vlc
-* 24 - inkscape
-* 25 - kdenlive
-* 26 - Firefox (flatpack)
-* 27 - gimp
-* 28 - dbeaver
+* 22 – insomnia rest
+* 23 - spotify
+* 24 - vlc
+* 25 - inkscape
+* 26 - kdenlive
+* 27 - Firefox (flatpack)
+* 28 - gimp
+* 29 - dbeaver
 
 ## Snap 
-* 29 - scrcpy (snap install scrcpy)
+* 30 - scrcpy (snap install scrcpy)
 
 ## Tema(Opcional)
 
