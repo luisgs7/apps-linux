@@ -35,6 +35,7 @@
 * 27 - Firefox (flatpack)
 * 28 - gimp
 * 29 - dbeaver
+* 30 - dropbox
 
 ## Snap 
 * 30 - scrcpy (snap install scrcpy)
