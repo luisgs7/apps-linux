@@ -3,44 +3,41 @@
 
 ## JetBrains Toolbox
 * 01 - Android Studio
-* 02 - intellij
-* 03 - pycharm
+* 02 - pycharm
 
 ## Terminal e direto do site oficial
-* 04 - google chrome 
-* 05 - Java 11 LTS(seguir tutorial da oracle)
-* 06 - Dart -> Configuração no outro arquivo 
-* 07 - fvm (flutter)
-* 08 - nvm nodejs
-* 09 – vscode: sincronizar com a conta do github (docker, code runner, dart, flutter, javascript, python, material icon theme)
-* 10 - venv
-* 11 – configurar git
-* 12 – docker (sudo usermod -a -G docker luis -- cat /etc/group) 
-* 13 - docker compose
-* 14 – diolinux instalar fontes microsoft
-* 15 - poetry ("alias python=python3.9")
-* 16 - anaconda navigator 
-* 17 - golang
-* 18 - Terminal zsh, fish (https://starship.rs/)
-* 19 – virtualbox
-* 20 - mysql Workbench
-* 21 - brave browser 
+* 03 - google chrome 
+* 04 - Java 11 LTS(seguir tutorial da oracle)
+* 05 - Dart -> Configuração no outro arquivo 
+* 06 - fvm (flutter)
+* 07 - nvm nodejs
+* 08 – vscode: sincronizar com a conta do github (docker, code runner, dart, flutter, javascript, python, material icon theme)
+* 09 - venv
+* 10 – configurar git
+* 11 – docker (sudo usermod -a -G docker luis -- cat /etc/group) 
+* 12 - docker compose
+* 13 – diolinux instalar fontes microsoft
+* 14 - poetry ("alias python=python3.9")
+* 15 - anaconda navigator 
+* 16 - Terminal zsh, fish (https://starship.rs/)
+* 17 – virtualbox
 
 ## Flatpack e loja de aplicativos 
-* 22 – insomnia rest
-* 23 - spotify
-* 24 - vlc
-* 25 - inkscape
-* 26 - kdenlive
-* 27 - Firefox (flatpack)
-* 28 - gimp
-* 29 - dbeaver
-* 30 - dropbox
+* 19 – insomnia rest ou Postman
+* 20 - spotify
+* 21 - vlc
+* 22 - inkscape
+* 23 - kdenlive
+* 24 - gimp
+* 25 - dbeaver (mysql, sqlite, postgresql)
+* 26 - dropbox
 
 ## Snap 
-* 30 - scrcpy (snap install scrcpy)
+* 27 - scrcpy (snap install scrcpy)
 
-## Tema(Opcional)
-
+## Opcional
+* mysql Workbench
+* Firefox (flatpack)
+* golang
 * aplicativos - Flat remix gtk blue dark solid
 * ícones - Flat Remix Blue Dark
