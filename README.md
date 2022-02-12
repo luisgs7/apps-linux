@@ -19,9 +19,9 @@
 * 13 - poetry ("alias python=python3.9")
 * 14 - miniconda python (https://docs.conda.io/en/latest/miniconda.html) 
 * 15 - Terminal fish (https://starship.rs/)
+* 16 - Atom editor https://atom.io/
 
 ## Flatpack e loja de aplicativos 
-* 16 – insomnia rest
 * 17 - spotify
 * 18 - vlc
 * 19 - kdenlive
@@ -30,9 +30,10 @@
 * 22 - pgadmin
 * 23 - dropbox
 * 24 - DB Browser for SQLite
+* 25 – insomnia rest
 
 ## Snap 
-* 25 - scrcpy (snap install scrcpy)
+* 26 - scrcpy (snap install scrcpy)
 
 ## Opcional
 * virtualbox
