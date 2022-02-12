@@ -13,7 +13,7 @@
 * 07 – vscode: sincronizar com a conta do github (docker, code runner, dart, flutter, javascript, python, material icon theme)
 * 08 - venv
 * 09 – configurar git
-* 10 – docker (sudo usermod -a -G docker luis -- cat /etc/group) (mysql, mongodb, postresql, mariadb)
+* 10 – docker (sudo usermod -a -G docker luis -- cat /etc/group) (mysql, mongodb, postgres, mariadb)
 * 11 - docker compose
 * 12 – diolinux instalar fontes microsoft
 * 13 - poetry ("alias python=python3.9")
