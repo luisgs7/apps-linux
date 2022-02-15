@@ -4,7 +4,7 @@
 ## JetBrains Toolbox
 * 01 - Android Studio
 
-## Terminal direto do site oficial
+## Terminal e direto do site oficial
 * 02 - google chrome 
 * 03 - Verificar se tem o openjdk instalado (``` sudo alternatives --config java ```), Java 11 LTS(seguir tutorial da oracle))
 * 04 - dart flutter (https://dart.dev/)
@@ -20,7 +20,7 @@
 * 14 - miniconda python (https://docs.conda.io/en/latest/miniconda.html) 
 * 15 - Terminal fish (https://starship.rs/)
 
-## Flatpack e loja de aplicativos 
+## Flatpack 
 * 16 – insomnia rest
 * 17 - spotify
 * 18 - vlc
