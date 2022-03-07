@@ -15,7 +15,7 @@
 * 09 – configurar git
 * 10 – docker (sudo usermod -a -G docker luis -- cat /etc/group) (mysql, mongodb, postgres, mariadb)
 * 11 - docker compose
-* 12 – diolinux instalar fontes microsoft
+* 12 – diolinux instalar fontes microsoft (https://diolinux.com.br/sistemas-operacionais/instalando-fontes-no-linux.html#:~:text=Para%20adicionar%20as%20fontes%20Microsoft,Synaptic%2C%20dever%C3%A1%20ser%20instalado%20antes.)
 * 13 - poetry ("alias python=python3.9")
 * 14 - miniconda python (https://docs.conda.io/en/latest/miniconda.html) 
 * 15 - Terminal fish (https://starship.rs/)
@@ -35,6 +35,7 @@
 * 24 - scrcpy (snap install scrcpy)
 
 ## Opcional
+* Ubuntu config (https://diolinux.com.br/tutoriais/o-que-fazer-apos-instalar-o-ubuntu-20-04.html)
 * virtualbox
 * Firefox (flatpack)
 * aplicativos - Flat remix gtk blue dark solid
