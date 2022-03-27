@@ -3,39 +3,67 @@
 
 ## JetBrains Toolbox
 * 01 - Android Studio
+*    - Pycharm
+*    - Intellij
 
 ## Terminal e direto do site oficial
 * 02 - google chrome 
-* 03 - Verificar se tem o openjdk instalado (``` sudo alternatives --config java ```), Java 11 LTS(seguir tutorial da oracle))
+* 03 - Verificar se tem o openjdk instalado
+```
+    sudo alternatives --config java 
+```
 * 04 - dart flutter (https://dart.dev/)
 * 05 - fvm (flutter)
 * 06 - asdf (nodejs, golang) https://asdf-vm.com/   https://github.com/asdf-vm/asdf-plugins
 * 07 – vscode: sincronizar com a conta do github (docker, code runner, dart, flutter, javascript, python, material icon theme)
 * 08 - venv
 * 09 – configurar git
-* 10 – docker (sudo usermod -a -G docker luis -- cat /etc/group) (mysql, mongodb, postgres, mariadb)
+* 10 – docker images (mysql, mongodb, postgres, mariadb)
+```
+    sudo usermod -a -G docker luis -- cat /etc/group
+```
 * 11 - docker compose
-* 12 – diolinux instalar fontes microsoft (https://diolinux.com.br/sistemas-operacionais/instalando-fontes-no-linux.html#:~:text=Para%20adicionar%20as%20fontes%20Microsoft,Synaptic%2C%20dever%C3%A1%20ser%20instalado%20antes.)
+* 12 – diolinux instalar fontes microsoft
 * 13 - poetry ("alias python=python3.9")
 * 14 - miniconda python (https://docs.conda.io/en/latest/miniconda.html) 
 * 15 - Terminal fish (https://starship.rs/)
+* 16 - mysql Workbench
+* 17 - pgadmin
 
 ## Flatpack 
-* 16 – insomnia rest
-* 17 - spotify
-* 18 - vlc
-* 19 - kdenlive
-* 20 - gimp
-* 21 - mysql Workbench
-* 22 - pgadmin
+* 18 - spotify
+* 19 - vlc
+* 20 - kdenlive
+* 21 - gimp
+* 22 – insomnia rest
 * 23 - dropbox
 
 
 ## Snap 
 * 24 - scrcpy (snap install scrcpy)
+* 25 - Heroku cli (https://devcenter.heroku.com/articles/heroku-cli)
+
+## Confugurar database
+* Mariadb 
+ ```
+ sudo dnf install python3-devel
+ ```
+ ```
+ sudo dnf install mariadb-devel
+ ```
+ ```
+sudo dnf install mariadb-connector-c-devel
+ ```
+ * Mysql
+ ```
+ sudo dnf install mysql-connector-python3
+ ```
+ * Postgresql
+ ```
+ sudo dnf install libpq-devel
+ ```
 
 ## Opcional
-* Ubuntu config (https://diolinux.com.br/tutoriais/o-que-fazer-apos-instalar-o-ubuntu-20-04.html)
 * virtualbox
 * Firefox (flatpack)
 * aplicativos - Flat remix gtk blue dark solid
