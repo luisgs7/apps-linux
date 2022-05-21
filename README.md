@@ -28,22 +28,25 @@
 * 14 - miniconda python (https://docs.conda.io/en/latest/miniconda.html) 
 * 15 - Terminal fish (https://starship.rs/)
 * 16 - mysql Workbench
-* 17 - pgadmin
+* 17 - pgadmin web 
 
 ## Flatpack 
 * 18 - spotify
 * 19 - vlc
 * 20 - kdenlive
 * 21 - gimp
-* 22 – insomnia rest
+* 22 – postman
 * 23 - dropbox
 
+## RPM
+* 24 - KeePassXC (RPM)
+* 25 - Virtual Machine Manager (RPM)
 
 ## Snap 
-* 24 - scrcpy (snap install scrcpy)
-* 25 - Heroku cli (https://devcenter.heroku.com/articles/heroku-cli)
+* 26 - scrcpy (snap install scrcpy)
+* 27 - Heroku cli (https://devcenter.heroku.com/articles/heroku-cli)
 
-## Confugurar database
+## Configurar database
 * Mariadb 
  ```
  sudo dnf install python3-devel
