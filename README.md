@@ -37,14 +37,15 @@
 * 21 - gimp
 * 22 – postman
 * 23 - dropbox
+* 24 - Bitwarden
 
 ## RPM
-* 24 - KeePassXC (RPM)
-* 25 - Virtual Machine Manager (RPM)
+* 25 - KeePassXC (RPM)
+* 26 - Virtual Machine Manager (RPM)
 
 ## Snap 
-* 26 - scrcpy (snap install scrcpy)
-* 27 - Heroku cli (https://devcenter.heroku.com/articles/heroku-cli)
+* 27 - scrcpy (snap install scrcpy)
+* 28 - Heroku cli (https://devcenter.heroku.com/articles/heroku-cli)
 
 ## Configurar database
 * Mariadb 
