@@ -67,6 +67,10 @@ sudo dnf install mariadb-connector-c-devel
  sudo dnf install libpq-devel
  ```
 
+## Configurações
+* Chaves SSH
+* React Native
+
 ## Opcional
 * virtualbox
 * Firefox (flatpack)
