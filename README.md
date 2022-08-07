@@ -37,7 +37,7 @@
 * 20 – Insomnia
 * 21 - dropbox
 * 22 - Bitwarden
-* 23 - DBeaver Community
+* 23 - DBeaver Community (Plugins: MySQL, Mariadb, PostgreSQL)
 
 ## RPM
 
