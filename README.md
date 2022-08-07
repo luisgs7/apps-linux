@@ -8,7 +8,7 @@
 
 ## Terminal e direto do site oficial
 * 02 - google chrome 
-* 03 - Verificar se tem o openjdk instalado, instalar a versão do java
+* 03 - Verificar se tem o openjdk instalado **instalar a versão do JDK 1.8 pelo Intellij**
 ```
     sudo alternatives --config java 
 ```
