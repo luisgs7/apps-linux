@@ -23,7 +23,7 @@
     sudo usermod -a -G docker luis -- cat /etc/group
 ```
 * 11 - docker compose
-* 12 – diolinux instalar fontes microsoft
+* 12 – diolinux instalar fontes microsoft (https://diolinux.com.br/sistemas-operacionais/como-instalar-as-fontes-da-microsoft-no.html)
 * 13 - poetry ("alias python=python3.9")
 * 14 - miniconda python (https://docs.conda.io/en/latest/miniconda.html) 
 * 15 - Terminal fish (https://starship.rs/)
