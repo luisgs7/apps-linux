@@ -18,7 +18,11 @@
 * 07 – vscode: sincronizar com a conta do github (docker, code runner, dart, flutter, javascript, python, material icon theme)
 * 08 - venv, pip
 * 09 – configurar git(https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git)
-* 10 – docker images (dos projetos Python e Django)
+* 10 – docker images (dos projetos Python e Django) ou 
+```
+    curl -fsSL https://get.docker.com | bash
+```
+
 ```
     sudo usermod -a -G docker luis -- cat /etc/group
 ```
