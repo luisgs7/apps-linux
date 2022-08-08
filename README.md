@@ -18,7 +18,7 @@
 * 07 – vscode (https://code.visualstudio.com/): sincronizar com a conta do github (docker, code runner, dart, flutter, javascript, python, material icon theme)
 * 08 - venv, pip
 * 09 – configurar git(https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git)
-* 10 – docker images (dos projetos Python e Django) ou 
+* 10 – docker images (https://docs.docker.com/engine/install/fedora/) (dos projetos Python e Django) ou 
 ```
     curl -fsSL https://get.docker.com | bash
 ```
@@ -28,10 +28,10 @@
 ```
 * 11 - docker compose
 * 12 – diolinux instalar fontes microsoft (https://diolinux.com.br/sistemas-operacionais/como-instalar-as-fontes-da-microsoft-no.html)
-* 13 - poetry ("alias python=python3.9")
+* 13 - poetry (https://python-poetry.org/docs/)
 * 14 - miniconda python (https://docs.conda.io/en/latest/miniconda.html) 
 * 15 - Terminal fish (https://starship.rs/)
-* 16 - Bitwarden
+* 16 - Bitwarden (https://bitwarden.com/) || Flatpack
 
 
 ## Flatpack 
