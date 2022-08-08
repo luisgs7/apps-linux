@@ -31,25 +31,26 @@
 * 13 - poetry (https://python-poetry.org/docs/)
 * 14 - miniconda python (https://docs.conda.io/en/latest/miniconda.html) 
 * 15 - Terminal fish (https://starship.rs/)
-* 16 - Bitwarden (https://bitwarden.com/) || Flatpack
+* 16 - Bitwarden (https://bitwarden.com/) || Flatpack  mongodb
+* 17 - mongodb compass (https://www.mongodb.com/docs/compass/current/install/)
 
 
 ## Flatpack 
-* 17 - spotify
 * 18 - vlc
 * 19 - kdenlive
 * 20 – Insomnia
 * 21 - dropbox
 * 22 - Bitwarden
-* 23 - DBeaver Community (Plugins: MySQL, Mariadb, PostgreSQL)
+* 23 - spotify
+* 24 - DBeaver Community (Plugins: MySQL, Mariadb, PostgreSQL, SQLite)
 
 ## RPM
 
-* 24 - Virtual Machine Manager (RPM)
+* 25 - Virtual Machine Manager (RPM)
 
 ## Snap 
-* 25 - scrcpy (snap install scrcpy)
-* 26 - Heroku cli (https://devcenter.heroku.com/articles/heroku-cli)
+* 26 - scrcpy (snap install scrcpy)
+* 27 - Heroku cli (https://devcenter.heroku.com/articles/heroku-cli)
 
 ## Configurar database
 * Mariadb 
