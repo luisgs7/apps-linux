@@ -2,7 +2,7 @@
 ## Neste repositório se encontra o nome dos aplicativos para instalar no linux 
 
 ## JetBrains Toolbox
-* 01 - Android Studio
+* 01 - Android Studio (https://www.jetbrains.com/pt-br/toolbox-app/)
 *    - Pycharm
 *    - Intellij
 
@@ -13,9 +13,9 @@
     sudo alternatives --config java 
 ```
 * 04 - dart flutter (https://dart.dev/)
-* 05 - fvm (flutter)
+* 05 - fvm (https://fvm.app/docs/getting_started/installation)
 * 06 - asdf (nodejs, golang) https://asdf-vm.com/   https://github.com/asdf-vm/asdf-plugins
-* 07 – vscode: sincronizar com a conta do github (docker, code runner, dart, flutter, javascript, python, material icon theme)
+* 07 – vscode (https://code.visualstudio.com/): sincronizar com a conta do github (docker, code runner, dart, flutter, javascript, python, material icon theme)
 * 08 - venv, pip
 * 09 – configurar git(https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git)
 * 10 – docker images (dos projetos Python e Django) ou 
