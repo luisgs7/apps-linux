@@ -12,7 +12,7 @@
 ```
     sudo alternatives --config java 
 ```
-* 04 - dart flutter (https://dart.dev/)
+* 04 - dart flutter (https://dart.dev/) || (https://dart.dev/get-dart/archive)
 * 05 - fvm (https://fvm.app/docs/getting_started/installation)
 * 06 - asdf (nodejs, golang) https://asdf-vm.com/   https://github.com/asdf-vm/asdf-plugins
 * 07 – vscode (https://code.visualstudio.com/): sincronizar com a conta do github (docker, code runner, dart, flutter, javascript, python, material icon theme)
