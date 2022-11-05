@@ -58,11 +58,19 @@ asdf plugin add kotlin https://github.com/asdf-community/asdf-kotlin.git
 sudo dnf install python3-pip python3-venv
 ```
 * 08 – configurar git(https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git)
+```
+git config --global user.name "luisgs7"
+git config --global user.email "luisgsilva270@gmail.com"
+git config --list
+ssh -T git@github.com
+```
+
 * 09 – docker images (https://docs.docker.com/engine/install/fedora/) (dos projetos Python e Django) ou 
 ```
     curl -fsSL https://get.docker.com | bash
 ```
 
+Add docker user to sudo user
 ```
     sudo usermod -a -G docker luis -- cat /etc/group
 ```
@@ -101,16 +109,46 @@ Add the following to the end of ~/.config/fish/config.fish
 ```
 starship init fish | source
 ```
+Add the following to the end of ~/.bashrc:
+```
+eval "$(starship init bash)"
+```
 * 15 - mongodb compass (https://www.mongodb.com/docs/compass/current/install/)
-
+Download
+```
+wget https://downloads.mongodb.com/compass/mongodb-compass-1.33.1.x86_64.rpm
+```
+Install
+```
+sudo yum install mongodb-compass-1.33.1.x86_64.rpm
+```
+Start
+```
+mongodb-compass
+```
 
 ## Flatpack 
 * 16 - vlc
+```
+flatpak install flathub org.videolan.VLC
+```
 * 17 - kdenlive
 * 18 – Insomnia
+```
+flatpak install flathub rest.insomnia.Insomnia
+```
 * 19 - dropbox
+```
+flatpak install flathub com.dropbox.Client
+```
 * 20 - spotify
+```
+flatpak install flathub com.spotify.Client
+```
 * 21 - DBeaver Community (Plugins: MySQL, Mariadb, PostgreSQL, SQLite)
+```
+flatpak install flathub io.dbeaver.DBeaverCommunity
+```
 
 ## RPM
 
