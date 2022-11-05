@@ -4,7 +4,7 @@
 ## JetBrains Toolbox
 * 01 - Android Studio (https://www.jetbrains.com/pt-br/toolbox-app/)
 *    - Pycharm
-*    - Intellij
+*    - Intellij (instalar o java nas seguintes versões: 11 amazon Corretto version, Corretto 1.8 Amazon Correto)
 
 ## Terminal e direto do site oficial
 * 02 - google chrome 
@@ -12,13 +12,53 @@
 ```
     sudo alternatives --config java 
 ```
-* 04 - dart flutter (https://dart.dev/) || (https://dart.dev/get-dart/archive)
-* 05 - fvm (https://fvm.app/docs/getting_started/installation)
-* 06 - asdf (nodejs, golang) https://asdf-vm.com/   https://github.com/asdf-vm/asdf-plugins
-* 07 – vscode (https://code.visualstudio.com/): sincronizar com a conta do github (docker, code runner, dart, flutter, javascript, python, material icon theme)
-* 08 - venv, pip
-* 09 – configurar git(https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git)
-* 10 – docker images (https://docs.docker.com/engine/install/fedora/) (dos projetos Python e Django) ou 
+* 04 - asdf (nodejs, golang) https://asdf-vm.com/  
+```
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2
+```
+Bash: Add the following to ~/.bashrc:
+```
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+```
+
+Fish: Add the following to ~/.config/fish/config.fish:
+```
+source ~/.asdf/asdf.fish
+```
+```
+mkdir -p ~/.config/fish/completions; and ln -s ~/.asdf/completions/asdf.fish ~/.config/fish/completions
+```
+
+* 05 - Instalar os plugins: https://github.com/asdf-vm/asdf-plugins
+
+Golang
+```
+asdf plugin-add golang https://github.com/kennyp/asdf-golang.git
+```
+```
+asdf list
+asdf list all golang 
+asdf install golang <version>
+asdf global golang <version> 
+go version
+```
+Nodejs
+```
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+```
+Kotlin
+```
+asdf plugin add kotlin https://github.com/asdf-community/asdf-kotlin.git
+```
+
+* 06 – vscode (https://code.visualstudio.com/): sincronizar com a conta do github para instalar as extensões (docker, code runner, javascript, python, material icon theme)
+* 07 - venv, pip
+```
+sudo dnf install python3-pip python3-venv
+```
+* 08 – configurar git(https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git)
+* 09 – docker images (https://docs.docker.com/engine/install/fedora/) (dos projetos Python e Django) ou 
 ```
     curl -fsSL https://get.docker.com | bash
 ```
@@ -26,33 +66,63 @@
 ```
     sudo usermod -a -G docker luis -- cat /etc/group
 ```
-* 11 - docker compose
-* 12 – diolinux instalar fontes microsoft (https://diolinux.com.br/sistemas-operacionais/como-instalar-as-fontes-da-microsoft-no.html)
-* 13 - poetry (https://python-poetry.org/docs/)
-* 14 - miniconda python (https://docs.conda.io/en/latest/miniconda.html) 
-* 15 - Terminal fish (https://starship.rs/)
-* 16 - Bitwarden (https://bitwarden.com/) || Flatpack  mongodb
-* 17 - mongodb compass (https://www.mongodb.com/docs/compass/current/install/)
+* 10 - docker compose
+```
+sudo yum update
+```
+```
+sudo yum install docker-compose-plugin
+```
+```
+docker compose version
+```
+* 11 – diolinux instalar fontes microsoft (https://diolinux.com.br/sistemas-operacionais/como-instalar-as-fontes-da-microsoft-no.html)
+```
+sudo dnf install https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+```
+* 12 - poetry (https://python-poetry.org/docs/)
+```
+curl -sSL https://install.python-poetry.org | python3 -
+```
+Bash
+```
+poetry completions bash >> ~/.bash_completion
+```
+Fish
+```
+poetry completions fish > ~/.config/fish/completions/poetry.fish
+```
+* 13 - miniconda python (https://docs.conda.io/en/latest/miniconda.html) 
+* 14 - Terminal fish (https://starship.rs/)
+```
+curl -sS https://starship.rs/install.sh | sh
+```
+Add the following to the end of ~/.config/fish/config.fish
+```
+starship init fish | source
+```
+* 15 - mongodb compass (https://www.mongodb.com/docs/compass/current/install/)
 
 
 ## Flatpack 
-* 18 - vlc
-* 19 - kdenlive
-* 20 – Insomnia
-* 21 - dropbox
-* 22 - Bitwarden
-* 23 - spotify
-* 24 - DBeaver Community (Plugins: MySQL, Mariadb, PostgreSQL, SQLite)
+* 16 - vlc
+* 17 - kdenlive
+* 18 – Insomnia
+* 19 - dropbox
+* 20 - spotify
+* 21 - DBeaver Community (Plugins: MySQL, Mariadb, PostgreSQL, SQLite)
 
 ## RPM
 
-* 25 - Virtual Machine Manager (RPM)
+* 22 - Gerenciador de máquinas virtuais - Virtual Machine Manager (RPM)
 
 ## Snap 
-* 26 - scrcpy (snap install scrcpy)
-* 27 - Heroku cli (https://devcenter.heroku.com/articles/heroku-cli)
+* 23 - scrcpy
+```
+snap install scrcpy
+```
 
-## Configurar database
+## Configurar databases
 * Mariadb 
  ```
  sudo dnf install python3-devel
@@ -73,14 +143,15 @@ sudo dnf install mariadb-connector-c-devel
  ```
 
 ## Configurações
-* Chaves SSH
-* React Native
+* Adicionar chaves SSH na na pasta /home/luis/.ssh/
 
 ## Opcional
-* virtualbox
 * aplicativos - Flat remix gtk blue dark solid
 * ícones - Flat Remix Blue Dark
 * mysql Workbench
 * pgadmin web
-* KeePassXC (RPM)
 * gimp
+* dart flutter (https://dart.dev/) || (https://dart.dev/get-dart/archive)
+* fvm (https://fvm.app/docs/getting_started/installation)
+* Heroku cli (https://devcenter.heroku.com/articles/heroku-cli)
+* Bitwarden
