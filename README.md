@@ -149,6 +149,10 @@ flatpak install flathub com.spotify.Client
 ```
 flatpak install flathub io.dbeaver.DBeaverCommunity
 ```
+* 22 - OBS
+```
+flatpak install flathub com.obsproject.Studio
+```
 
 ## RPM
 
