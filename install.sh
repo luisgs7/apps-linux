@@ -24,6 +24,7 @@ sudo dnf install code -y
 echo "5 - Configuração do git"
 git config --global user.name "luisgs7"
 git config --global user.email "luisgsilva270@gmail.com"
+git config --global init.defaultBranch main
 git config --list
 
 echo "6 - Instalação do docker e docker-compose"
