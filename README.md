@@ -1,6 +1,14 @@
 # Apps-Linux
+## Passos a serem seguidos
 
 1 - Adicionar as chaves ssh a home
+
+2 - Remover as Atualizações automaticas na loja de aplicativos
+
+3 - Habilitar o flathub na loja de aplicativos
+```
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
 
 2 - Shell Script **install.sh**
 ```
