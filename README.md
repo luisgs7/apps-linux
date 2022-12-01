@@ -5,9 +5,9 @@
 chmod +x install.sh
 ```
 
-2 - Ler as instruções do arquivo
+2 - Ler as instruções do arquivo 
 
-
+<a href="https://github.com/luisgs7/install-apps-linux/blob/main/CONFIG.MD">CONFIG.MD</a>
 
 ## Neste repositório se encontra o nome dos aplicativos para instalar no linux 
 
