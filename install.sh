@@ -68,22 +68,28 @@ wget https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community
 sudo dnf install mysql-workbench-community-8.0.31-1.fc37.x86_64.rpm -y
 rm -rf mysql-workbench-community-8.0.31-1.fc37.x86_64.rpm
 
+echo "16 - Python3-pip and venv"
+sudo dnf install python3-pip python3-venv -y
+
 echo "Instalação dos Flatpacks"
 
-echo "16 - Instalação do VLC"
+echo "17 - Instalação do VLC"
 flatpak install flathub org.videolan.VLC -y
 
-echo "17 - Insomnia"
+echo "18 - Insomnia"
 flatpak install flathub rest.insomnia.Insomnia -y
 
-echo "18 - Dropbox"
+echo "19 - Dropbox"
 flatpak install flathub com.dropbox.Client -y
 
-echo "19 - Spotify"
+echo "20 - Spotify"
 flatpak install flathub com.spotify.Client -y
 
-echo "20 - Kenlive"
+echo "21 - Kenlive"
 flatpak install flathub org.kde.kdenlive -y
+
+echo "22 - Autoremove"
+sudo dnf autoremove -y
 
 echo "Instalação concluída."
 
