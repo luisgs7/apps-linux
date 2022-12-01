@@ -88,4 +88,8 @@ flatpak install flathub com.spotify.Client -y
 echo "20 - Autoremove"
 sudo dnf autoremove -y
 
+echo "21 - Snap"
+sudo dnf install snapd -y
+sudo ln -s /var/lib/snapd/snap /snap
+
 echo "Instalação concluída."
