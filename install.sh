@@ -3,6 +3,10 @@
 echo "1 - Atualização do Sistema"
 sudo dnf update -y
 
+echo "1.1 - Instalação do gnome-tweaks e do gnome-extensions-app"
+sudo dnf install gnome-tweaks -y
+sudo dnf install gnome-extensions-app -y
+
 echo "2 - Instalação do Fish Terminal"
 sudo dnf install fish -y
 
