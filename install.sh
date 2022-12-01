@@ -66,30 +66,31 @@ sudo yum install virt-manager -y
 
 echo "14 - PGADMIN"
 sudo rpm -i https://ftp.postgresql.org/pub/pgadmin/pgadmin4/yum/pgadmin4-fedora-repo-2-1.noarch.rpm
+sudo dnf update -y
 sudo yum install pgadmin4-desktop -y
-
-echo "15 - Python3-pip and venv"
-sudo dnf install python3-pip python3-venv -y
 
 echo "Instalação dos Flatpacks"
 
-echo "16 - Instalação do VLC"
+echo "15 - Instalação do VLC"
 flatpak install flathub org.videolan.VLC -y
 
-echo "17 - Insomnia"
+echo "16 - Insomnia"
 flatpak install flathub rest.insomnia.Insomnia -y
 
-echo "18 - Dropbox"
+echo "17 - Dropbox"
 flatpak install flathub com.dropbox.Client -y
 
-echo "19 - Spotify"
+echo "18 - Spotify"
 flatpak install flathub com.spotify.Client -y
 
-echo "20 - Autoremove"
-sudo dnf autoremove -y
-
-echo "21 - Snap"
+echo "19 - Snap"
 sudo dnf install snapd -y
 sudo ln -s /var/lib/snapd/snap /snap
+
+echo "20 - Update"
+sudo dnf update -y
+
+echo "19 - Autoremove"
+sudo dnf autoremove -y
 
 echo "Instalação concluída."
