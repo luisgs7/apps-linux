@@ -1,4 +1,14 @@
 # Apps-Linux
+
+1 - Shell Script **install.sh**
+```
+chmod +x install.sh
+```
+
+2 - Ler as instruções do arquivo
+
+
+
 ## Neste repositório se encontra o nome dos aplicativos para instalar no linux 
 
 ## JetBrains Toolbox
