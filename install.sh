@@ -87,10 +87,14 @@ echo "19 - Snap"
 sudo dnf install snapd -y
 sudo ln -s /var/lib/snapd/snap /snap
 
-echo "20 - Update"
+echo "20 - Tilix Terminal"
+sudo dnf install tilix -y
+
+echo "21 - Update"
 sudo dnf update -y
 
-echo "19 - Autoremove"
+echo "22 - Autoremove"
 sudo dnf autoremove -y
+
 
 echo "Instalação concluída."
