@@ -12,12 +12,17 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 2 - Shell Script **install.sh**
 ```
-chmod +x install.sh
+chmod +x install.sh && ./install.sh
 ```
 
 3 - Ler as instruções do arquivo 
 
 <a href="https://github.com/luisgs7/install-apps-linux/blob/main/CONFIG.MD">CONFIG.MD</a>
+<br>
+<br>
+
+
+# Histórico
 
 ## Neste repositório se encontra o nome dos aplicativos para instalar no linux 
 
