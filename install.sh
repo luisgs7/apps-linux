@@ -85,10 +85,7 @@ flatpak install flathub com.dropbox.Client -y
 echo "19 - Spotify"
 flatpak install flathub com.spotify.Client -y
 
-echo "20 - Kenlive"
-flatpak install flathub org.kde.kdenlive -y
-
-echo "21 - Autoremove"
+echo "20 - Autoremove"
 sudo dnf autoremove -y
 
 echo "Instalação concluída."
