@@ -1,11 +1,13 @@
 # Apps-Linux
 
-1 - Shell Script **install.sh**
+1 - Adicionar as chaves ssh a home
+
+2 - Shell Script **install.sh**
 ```
 chmod +x install.sh
 ```
 
-2 - Ler as instruções do arquivo 
+3 - Ler as instruções do arquivo 
 
 <a href="https://github.com/luisgs7/install-apps-linux/blob/main/CONFIG.MD">CONFIG.MD</a>
 
