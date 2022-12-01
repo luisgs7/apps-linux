@@ -87,7 +87,7 @@ flatpak install flathub org.kde.kdenlive -y
 
 echo "Instalação concluída."
 
-echo "Agora configure o ~.bashrch e o ~/.config/fish/config.fish"
+echo "Agora configure o ~.bashrc e o ~/.config/fish/config.fish"
 echo "Configure o poetry"
 echo "Instale o kotlin e nodejs com ASDF"
 echo "Adicione as chaves ssh na pasta .ssh"
