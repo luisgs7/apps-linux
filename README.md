@@ -10,6 +10,11 @@
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
+3.1 - Verificar se o flathub foi habilitado.
+```
+flatpak remotes
+```
+
 2 - Shell Script **install.sh**
 ```
 chmod +x install.sh && ./install.sh
