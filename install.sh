@@ -78,20 +78,23 @@ flatpak install flathub com.dropbox.Client -y
 echo "17 - Spotify"
 flatpak install flathub com.spotify.Client -y
 
-echo "18 - Snap"
+echo "18 - Dbeaver"
+flatpak install flathub io.dbeaver.DBeaverCommunity
+
+echo "19 - Snap"
 sudo dnf install snapd -y
 sudo ln -s /var/lib/snapd/snap /snap
 
-echo "19 - Tilix Terminal"
+echo "20 - Tilix Terminal"
 sudo dnf install tilix -y
 
-echo "20 - Python3-devel"
+echo "21 - Python3-devel"
 sudo dnf install python3-devel
 
-echo "20 - Update"
+echo "22 - Update"
 sudo dnf update -y
 
-echo "21 - Autoremove"
+echo "23 - Autoremove"
 sudo dnf autoremove -y
 
 
