@@ -85,6 +85,9 @@ sudo ln -s /var/lib/snapd/snap /snap
 echo "19 - Tilix Terminal"
 sudo dnf install tilix -y
 
+echo "20 - Python3-devel"
+sudo dnf install python3-devel
+
 echo "20 - Update"
 sudo dnf update -y
 
