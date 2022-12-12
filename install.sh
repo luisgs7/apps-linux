@@ -79,7 +79,7 @@ echo "17 - Spotify"
 flatpak install flathub com.spotify.Client -y
 
 echo "18 - Dbeaver"
-flatpak install flathub io.dbeaver.DBeaverCommunity
+flatpak install flathub io.dbeaver.DBeaverCommunity -y
 
 echo "19 - Snap"
 sudo dnf install snapd -y
