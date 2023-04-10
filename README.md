@@ -37,7 +37,7 @@ chmod +x install.sh && ./install.sh
 *    - Intellij (instalar o java nas seguintes versões: 11 amazon Corretto version, Corretto 1.8 Amazon Correto)
 
 ## Terminal e direto do site oficial
-* 02 - google chrome 
+* 02 - google chrome https://www.google.com/intl/pt-BR/chrome/
 * 03 - Verificar se tem o openjdk instalado **instalar a versão do JDK 1.8 pelo Intellij**
 ```
     sudo alternatives --config java 
