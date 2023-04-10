@@ -85,6 +85,9 @@ echo "19 - Snap"
 sudo dnf install snapd -y
 sudo ln -s /var/lib/snapd/snap /snap
 
+echo "20 - Scrcpy"
+snap install scrcpy -y
+
 echo "20 - Tilix Terminal"
 sudo dnf install tilix -y
 
