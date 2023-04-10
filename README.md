@@ -25,7 +25,10 @@ chmod +x install.sh && ./install.sh
 <a href="https://github.com/luisgs7/install-apps-linux/blob/main/CONFIG.MD">CONFIG.MD</a>
 <br>
 <br>
-
+<br>
+<br>
+<br>
+<br>
 
 # Histórico
 
