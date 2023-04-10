@@ -49,3 +49,10 @@ asdf plugin add kotlin https://github.com/asdf-community/asdf-kotlin.git
 
 9 - Kendilve, download Appimage
 https://kdenlive.org/en/download/
+
+
+10 - Dart and FVM  
+    dart flutter (https://dart.dev/) || (https://dart.dev/get-dart/archive)
+    fvm (https://fvm.app/docs/getting_started/installation)
+ 
+ 11 - gimp
