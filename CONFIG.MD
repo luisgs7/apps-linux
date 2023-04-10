@@ -36,7 +36,9 @@ asdf install golang <version>
 asdf global golang <version> 
 go version
 ```
-Nodejs
+Nodejs https://nodejs.org/en
+<h6>Instalar a versão LTS e a versão 8.9.1</h6>
+
 ```
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 ```
