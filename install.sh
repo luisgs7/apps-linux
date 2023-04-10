@@ -11,7 +11,7 @@ echo "2 - Instalação do Fish Terminal"
 sudo dnf install fish -y
 
 echo "3 - Instalação do asdf"
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.10.2
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.3
 
 echo "Configure o ~/.bashrc e o  ~/.config/fish/config.fish"
 
@@ -51,9 +51,9 @@ echo "9 - Starship"
 curl -sS https://starship.rs/install.sh | sh
 
 echo "10 - Mongodb Compass"
-wget https://downloads.mongodb.com/compass/mongodb-compass-1.34.1.x86_64.rpm
+wget https://downloads.mongodb.com/compass/mongodb-compass-1.35.0.x86_64.rpm
 
-sudo yum install mongodb-compass-1.34.1.x86_64.rpm -y
+sudo yum install mongodb-compass-1.35.0.x86_64.rpm
 
 echo "11 - Configurações do PostgreSQL"
 sudo dnf install libpq-devel -y
