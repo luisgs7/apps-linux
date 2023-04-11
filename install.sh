@@ -92,7 +92,7 @@ echo "20 - Tilix Terminal"
 sudo dnf install tilix -y
 
 echo "21 - Python3-devel"
-sudo dnf install python3-devel
+sudo dnf install python3-devel -y
 
 echo "22 - Update"
 sudo dnf update -y
