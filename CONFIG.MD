@@ -55,4 +55,6 @@ https://kdenlive.org/en/download/
     dart flutter (https://dart.dev/) || (https://dart.dev/get-dart/archive)
     fvm (https://fvm.app/docs/getting_started/installation)
  
- 11 - gimp
+11 - gimp
+
+12 - Instalar os plugins do Libre Office e do Media Player
