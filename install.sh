@@ -86,18 +86,18 @@ sudo dnf install snapd -y
 sudo ln -s /var/lib/snapd/snap /snap
 
 echo "20 - Scrcpy"
-snap install scrcpy -y
+snap install scrcpy
 
-echo "20 - Tilix Terminal"
+echo "21 - Tilix Terminal"
 sudo dnf install tilix -y
 
-echo "21 - Python3-devel"
+echo "22 - Python3-devel"
 sudo dnf install python3-devel -y
 
-echo "22 - Update"
+echo "23 - Update"
 sudo dnf update -y
 
-echo "23 - Autoremove"
+echo "24 - Autoremove"
 sudo dnf autoremove -y
 
 
