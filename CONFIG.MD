@@ -42,7 +42,7 @@ Nodejs https://nodejs.org/en
 ```
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 ```
-Kotlin
+Kotlin https://kotlinlang.org/
 ```
 asdf plugin add kotlin https://github.com/asdf-community/asdf-kotlin.git
 ```
