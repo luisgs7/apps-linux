@@ -53,7 +53,7 @@ curl -sS https://starship.rs/install.sh | sh
 echo "10 - Mongodb Compass"
 wget https://downloads.mongodb.com/compass/mongodb-compass-1.35.0.x86_64.rpm
 
-sudo yum install mongodb-compass-1.35.0.x86_64.rpm
+sudo yum install mongodb-compass-1.35.0.x86_64.rpm -y
 
 echo "11 - Configurações do PostgreSQL"
 sudo dnf install libpq-devel -y
