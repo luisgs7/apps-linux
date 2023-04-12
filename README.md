@@ -5,14 +5,9 @@
 
 2 - Remover as Atualizações automaticas na loja de aplicativos
 
-3 - Habilitar o flathub na loja de aplicativos
+3 - Habilitar o flathub na loja de aplicativos e verificar.
 ```
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-```
-
-3.1 - Verificar se o flathub foi habilitado.
-```
-flatpak remotes
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak remotes
 ```
 
 2 - Shell Script **install.sh**
