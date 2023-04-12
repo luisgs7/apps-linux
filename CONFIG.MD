@@ -1,6 +1,21 @@
 # Configurações após o shell script
 
-1 - Configurar o .bashrc e o config.fish  
+1 - Configurar o ```.bashrc```
+```
+## Config
+
+# ASDF
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+```
+1.1 - Configurar o ``` /home/luis/.config/fish/config.fish```
+```
+# ASDF
+source ~/.asdf/asdf.fish
+
+# Fish
+starship init fish | source
+```
 
 2 - Configurar o poetry
 
