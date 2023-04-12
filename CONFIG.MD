@@ -7,6 +7,13 @@
 # ASDF
 . $HOME/.asdf/asdf.sh
 . $HOME/.asdf/completions/asdf.bash
+
+# Dart
+export PATH="$PATH:/home/luis/Apps/dart-sdk/bin"
+
+# FVM
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+export PATH="$PATH":"/home/luis/fvm/default/bin"
 ```
 1.1 - Configurar o ``` /home/luis/.config/fish/config.fish```
 ```
@@ -15,6 +22,13 @@ source ~/.asdf/asdf.fish
 
 # Fish
 starship init fish | source
+
+# Dart
+export PATH="$PATH:/home/luis/Apps/dart-sdk/bin"
+
+# FVM
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+export PATH="$PATH":"/home/luis/fvm/default/bin"
 ```
 
 2 - Configurar o poetry
