@@ -14,6 +14,7 @@ echo "3 - Instalação do asdf"
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.3
 
 echo "Configure o ~/.bashrc e o  ~/.config/fish/config.fish"
+echo '# ASDF' >> ~/.bashrc
 echo '. $HOME/.asdf/asdf.sh' >> ~/.bashrc
 echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
 
@@ -101,6 +102,7 @@ sudo yum install gcc make patch zlib-devel bzip2 bzip2-devel readline-devel sqli
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 
 echo "Config ~/.bashrc"
+echo '# PYENV' >> ~/.bashrc
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo 'eval "$(pyenv init -)"' >> ~/.bashrc
