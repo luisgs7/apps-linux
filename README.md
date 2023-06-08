@@ -218,6 +218,17 @@ sudo dnf install mariadb-connector-c-devel
 ## Configurações
 * Adicionar chaves SSH na na pasta /home/luis/.ssh/
 
+## Dart e FVM config .bashrc
+```
+# Dart
+export PATH="$PATH:/home/luis/Apps/dart-sdk/bin"
+```
+```
+# FVM
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+export PATH="$PATH":"/home/luis/fvm/default/bin"
+```
+
 ## Opcional
 * aplicativos - Flat remix gtk blue dark solid
 * ícones - Flat Remix Blue Dark
