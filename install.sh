@@ -94,6 +94,15 @@ sudo dnf install tilix -y
 echo "22 - Python3-devel"
 sudo dnf install python3-devel -y
 
+echo "23 - Install Pyenv"
+sudo yum install gcc make patch zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel libffi-devel xz-devel -y
+git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+
+echo "Config ~/.bashrc"
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+
 echo "23 - Update"
 sudo dnf update -y
 
