@@ -14,6 +14,8 @@ echo "3 - Instalação do asdf"
 git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.3
 
 echo "Configure o ~/.bashrc e o  ~/.config/fish/config.fish"
+echo '. $HOME/.asdf/asdf.sh' >> ~/.bashrc
+echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
 
 echo "4 - Instalação do VSCode"
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
