@@ -91,13 +91,16 @@ sudo ln -s /var/lib/snapd/snap /snap
 echo "20 - Scrcpy"
 snap install scrcpy
 
-echo "21 - Tilix Terminal"
+echo "21 - Authy"
+snap install authy
+
+echo "22 - Tilix Terminal"
 sudo dnf install tilix -y
 
-echo "22 - Python3-devel"
+echo "23 - Python3-devel"
 sudo dnf install python3-devel -y
 
-echo "23 - Install Pyenv"
+echo "24 - Install Pyenv"
 sudo yum install gcc make patch zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel libffi-devel xz-devel -y
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 
@@ -109,10 +112,10 @@ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 
 pyenv versions
 
-echo "23 - Update"
+echo "25 - Update"
 sudo dnf update -y
 
-echo "24 - Autoremove"
+echo "26 - Autoremove"
 sudo dnf autoremove -y
 
 
