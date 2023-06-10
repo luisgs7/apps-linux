@@ -20,7 +20,7 @@ export PATH="$PATH":"/home/luis/fvm/default/bin"
 # ASDF
 source ~/.asdf/asdf.fish
 
-# Fish
+# Starship
 starship init fish | source
 
 # Dart
