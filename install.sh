@@ -11,7 +11,7 @@ echo "2 - Instalação do Fish Terminal"
 sudo dnf install fish -y
 
 echo "3 - Instalação do asdf"
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.13.1
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.1
 
 echo "Configure o ~/.bashrc e o  ~/.config/fish/config.fish"
 echo '# ASDF' >> ~/.bashrc
@@ -53,11 +53,6 @@ curl -sSL https://install.python-poetry.org | python3 -
 echo "9 - Starship"
 curl -sS https://starship.rs/install.sh | sh
 
-echo "10 - Mongodb Compass"
-wget https://downloads.mongodb.com/compass/mongodb-compass-1.37.0.x86_64.rpm
-
-sudo yum install mongodb-compass-1.37.0.x86_64.rpm -y
-
 echo "11 - Configurações do PostgreSQL"
 sudo dnf install libpq-devel -y
 
@@ -81,8 +76,8 @@ flatpak install flathub com.dropbox.Client -y
 echo "17 - Spotify"
 flatpak install flathub com.spotify.Client -y
 
-echo "18 - Dbeaver"
-flatpak install flathub io.dbeaver.DBeaverCommunity -y
+echo "18 - BeekeeperStudio"
+flatpak install flathub io.beekeeperstudio.Studio -y
 
 echo "19 - Snap"
 sudo dnf install snapd -y
