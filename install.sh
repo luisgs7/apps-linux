@@ -11,7 +11,7 @@ echo "2 - Instalação do Fish Terminal"
 sudo dnf install fish -y
 
 echo "3 - Instalação do asdf"
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.1
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.15.0
 
 echo "Configure o ~/.bashrc e o  ~/.config/fish/config.fish"
 echo '# ASDF' >> ~/.bashrc
